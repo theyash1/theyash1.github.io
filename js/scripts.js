@@ -17,5 +17,5 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
 });
+document.addEventListener('contextmenu', function(e){e.preventDefault();});
