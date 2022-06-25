@@ -38,4 +38,7 @@ document.onkeydown = function(e) {
       if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
        return false;
     }
+      if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)) {
+       return false;
+    }
   }
